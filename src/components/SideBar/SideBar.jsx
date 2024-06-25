@@ -5,14 +5,14 @@ import { useSelector } from "react-redux";
 import styles from "../../styles/Sidebar.module.css";
 
 const SideBar = () => {
-  const { list } = useSelector((state) => state.categoriesReducer);
-  console.log(list);
+  const { listCategories } = useSelector((state) => state.categoriesReducer);
+
   return (
     <section className={styles.sidebar}>
       <div className={styles.title}>CATEGORIES</div>
       <nav>
         <ul className={styles.menu}>
-          {list.map(({ id, name }) => (
+          {listCategories.map(({ id, name }) => (
             <li key={id}>
               <NavLink
                 className={({ isActive }) =>
@@ -21,6 +21,7 @@ const SideBar = () => {
                 to={`/categories/${id}`}
               >
                 {name}
+               
               </NavLink>
             </li>
           ))}

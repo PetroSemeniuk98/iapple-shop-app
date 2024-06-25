@@ -55,7 +55,6 @@ const Header = () => {
             <span className={styles.count}>3</span>
           </Link>
         </div>
-       
       </div>
     </div>
   );

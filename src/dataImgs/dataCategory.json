@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "IPhone",
+    "image": "/ImgsCateg/IMG_0782.WEBP",
+    "creationAt": "2024-05-28T06:20:45.000Z",
+    "updatedAt": "2024-05-28T06:20:45.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Apple Watch",
+    "image": "/ImgsCateg/IMG_0784.PNG",
+    "creationAt": "2024-05-28T06:20:45.000Z",
+    "updatedAt": "2024-05-28T06:20:45.000Z"
+  },
+  {
+    "id": 3,
+    "name": "MacBook",
+    "image": "/ImgsCateg/IMG_0783.JPG",
+    "creationAt": "2024-05-28T06:20:45.000Z",
+    "updatedAt": "2024-05-28T06:20:45.000Z"
+  },
+  {
+    "id": 4,
+    "name": "AirPods",
+    "image": "/ImgsCateg/IMG_0785.PNG",
+    "creationAt": "2024-05-28T06:20:45.000Z",
+    "updatedAt": "2024-05-28T06:20:45.000Z"
+  },
+  {
+    "id": 5,
+    "name": "Ipad",
+    "image": "/ImgsCateg/IMG_0786.AVIF",
+    "creationAt": "2024-05-28T06:20:45.000Z",
+    "updatedAt": "2024-05-28T06:20:45.000Z"
+  }
+]

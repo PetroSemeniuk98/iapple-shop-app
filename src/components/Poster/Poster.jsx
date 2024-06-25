@@ -1,6 +1,8 @@
 import React from "react";
-import styles from "../styles/Cart.module.css";
-import ComputerIMG from "../imgs/computer.png";
+
+import styles from "../../styles/Home.module.css";
+
+import ComputerIMG from "../../imgs/computer.png";
 
 const Poster = () => {
   return (
@@ -20,4 +22,4 @@ const Poster = () => {
   );
 };
 
-export default Poster;
+export { Poster };

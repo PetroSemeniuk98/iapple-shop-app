@@ -1,0 +1,38 @@
+.flex {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  vertical-align: middle;
+  flex-direction: column;
+}
+.item {
+  align-self: flex-end;
+  width: 33.33%;
+  height: 50px;
+  background: green;
+  border: 3px solid red;
+}
+.item:nth-child(3) {
+  flex-grow: 0.3;
+  background-color: blueviolet;
+  order: 1;
+}
+/* #no-border {
+  font-size: 18px;
+  color: red;
+} */
+.border {
+  max-width: 500px;
+  height: 300px;
+  font-size: 25px;
+  color: blueviolet;
+  border: 2px solid black;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.text {
+
+}
